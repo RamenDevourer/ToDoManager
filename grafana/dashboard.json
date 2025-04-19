@@ -1,0 +1,14 @@
+{
+  "dashboard": {
+    "title": "ToDoManager Metrics",
+    "panels": [
+      {
+        "type": "graph",
+        "title": "Dummy Success Rate",
+        "targets": [
+          { "expr": "success_rate", "format": "time_series" }
+        ]
+      }
+    ]
+  }
+}
